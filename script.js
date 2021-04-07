@@ -49,3 +49,4 @@ function asideSectionTogglerBtn(){
     allSection[i].classList.toggle("open");
   }
 }
+
