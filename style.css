@@ -591,11 +591,11 @@ input,textarea,select{
   width: 100%;
 }
 .project .project-item-inner .project-img{
-  width: 100%;
+  width: 95%;
   display: block;
 }
 .project .project-item-inner .project-img img{
-  width: 100%;
+  width: 95%;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
 }
