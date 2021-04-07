@@ -624,6 +624,62 @@ input,textarea,select{
 }
 
 
+
+/* References Section */
+.References .container{
+  padding-bottom: 40px;
+}
+.References .References-item{
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  display: flex;
+}
+.References .References-item-inner{
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #d4d4e3;
+  width: 100%;
+}
+.References .References-item-inner .References-img{
+  width: 100%;
+  display: block;
+}
+.References .References-item-inner .References-img img{
+  width: 100%;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.References .References-item-inner:hover .References-img img{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+.References .References-item-inner .References-info{
+  padding: 30px 15px;
+  background-color: #fdf9ff;
+
+}
+.References .References-item-inner .References-info .References-title{
+  font-size: 18px;
+  font-weight: 700;
+  color: #302e4d;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.References .References-item-inner .References-info .References-description{
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
 /* Contact Section */
 .contact .contact-info-item{
   -ms-flex: 0 0 50%;
