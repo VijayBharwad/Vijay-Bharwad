@@ -642,11 +642,11 @@ input,textarea,select{
   width: 100%;
 }
 .References .References-item-inner .References-img{
-  width: 70%;
+  width: 100%;
   display: block;
 }
 .References .References-item-inner .References-img img{
-  width: 70%;
+  width: 100%;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
 }
